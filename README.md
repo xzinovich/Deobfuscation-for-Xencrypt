@@ -3,7 +3,7 @@ The PowerShell code provided is a crypter (obfuscator and fudger) named "Xencryp
 
 ### Reverse Engineering Report - Xencrypt PowerShell Crypter
 
-**The script begins with defining the Create-Var function that generates random characters from the string "abcdefghijkmnopqrstuvwxyz" and creates a variable length for the generated file.
+The script begins with defining the Create-Var function that generates random characters from the string "abcdefghijkmnopqrstuvwxyz" and creates a variable length for the generated file.
 
 Next, the Invoke-Xencrypt function is defined, which takes the input script and output file as parameters. It also has an optional parameter for the number of times the script will be packed and encrypted recursively, with a default value of 2.
 
@@ -21,4 +21,4 @@ Read the Xencrypt obfuscated PowerShell code from the input file.
 Loop through the code and extract the encrypted data and encryption parameters used in each iteration.
 Decrypt the extracted data using the encryption key and parameters for each iteration.
 Replace the encrypted data with the decrypted data in the PowerShell code.
-Write the deobfuscated PowerShell code to the output file.**
+Write the deobfuscated PowerShell code to the output file.
